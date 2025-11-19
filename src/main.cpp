@@ -1,40 +1,20 @@
 #include <iostream>
-#include "point.h"
+#include "../include/point.h"
 
 int main() {
-    // Создание точек
     Point p1(3.0, 4.0);
     Point p2(1.0, 2.0);
-    Point p3;  // точка (0, 0)
-
-    std::cout << "=== Демонстрация класса Point ===" << std::endl;
-
-    // Тестирование методов
-    std::cout << "\n--- Точка 1 ---" << std::endl;
-    p1.print();
-
-    std::cout << "\n--- Точка 2 ---" << std::endl;
-    p2.print();
-
-    std::cout << "\n--- Точка 3 (по умолчанию) ---" << std::endl;
-    p3.print();
-
-    // Дополнительные операции
-    std::cout << "\n--- Дополнительные операции ---" << std::endl;
-    std::cout << "Расстояние между p1 и p2: " << p1.distanceTo(p2) << std::endl;
-
-    Point sum = p1 + p2;
-    std::cout << "Сумма p1 + p2: ";
-    sum.print();
-
-    // Тестирование геттеров/сеттеров
-    std::cout << "\n--- Тестирование сеттеров ---" << std::endl;
-    p3.setX(5.0);
-    p3.setY(12.0);
-    std::cout << "После изменения: ";
-    p3.print();
-    std::cout << "Координата X: " << p3.getX() << std::endl;
-    std::cout << "Координата Y: " << p3.getY() << std::endl;
-
+    std::cout << "=== demonstration of the class Point ===" << std::endl;
+    std::cout << "point 1 (" << p1.getX() << ";" << p1.getY() << ") DistToOrigin(len of radius-vector): " << p1.distanceToOrigin() << std::endl;
+    std::cout << "point 2 (" << p2.getX() << ";" << p2.getY() << ") DistToOrigin(len of radius-vector): " << p2.distanceToOrigin() << std::endl;
+    std::cout << "\n--- testing seters ---" << std::endl;
+    std::cout << "before changes: ";
+    std::cout << "coordinate X: " << p2.getX() << std::endl;
+    std::cout << "coordinate Y: " << p2.getY() << std::endl;
+    p2.setX(3.0);
+    p2.setY(2.8);
+    std::cout << "after changes: ";
+    std::cout << "coordinate X: " << p2.getX() << std::endl;
+    std::cout << "coordinate Y: " << p2.getY() << std::endl;
     return 0;
 }

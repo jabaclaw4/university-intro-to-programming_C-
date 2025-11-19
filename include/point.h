@@ -10,20 +10,33 @@ private:
     double y;
 
 public:
-    // Конструкторы
-    Point();  // по умолчанию
-    Point(double x, double y);  // с параметрами
+    Point() {
+        x = 0.0;
+        y = 0.0;
+    }
+    Point(double x, double y) {
+        setX(x);
+        setY(y);
+    }
 
-    // Геттеры
-    double getX() const;
-    double getY() const;
+    double getX() {
+        return x;
+    }
+    double getY() {
+        return y;
+    }
 
-    // Сеттеры
-    void setX(double x);
-    void setY(double y);
+    void setX(double x) {
+        this -> x = x;
+    }
+    void setY(double y) {
+        this -> y = y;
+    }
 
     //расстояние до начала координат
-    double distanceToOrigin() const;
+    double distanceToOrigin() {
+        return sqrt(x*x + y*y);
+    }
 };
 
 #endif

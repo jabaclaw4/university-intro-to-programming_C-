@@ -1,0 +1,16 @@
+# ninja log v6
+26	421	7852422492167449	build.ninja	86bf056c867b6d71
+30	515	7852422493227024	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+517	730	7852422498102908	learnCpp.exe	6ececa7c00dfc310
+19	458	7852423109662355	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+459	533	7852423114054103	learnCpp.exe	6ececa7c00dfc310
+19	453	7852423276498664	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+453	528	7852423280838739	learnCpp.exe	6ececa7c00dfc310
+22	451	7852423797524338	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+451	527	7852423801823915	learnCpp.exe	6ececa7c00dfc310
+18	452	7852423874274627	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+453	526	7852423878624744	learnCpp.exe	6ececa7c00dfc310
+19	462	7852425106637649	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+462	535	7852425111067597	learnCpp.exe	6ececa7c00dfc310
+20	467	7852425204247760	CMakeFiles/learnCpp.dir/src/main.cpp.obj	f717c7f22d37427b
+468	540	7852425208727796	learnCpp.exe	6ececa7c00dfc310
