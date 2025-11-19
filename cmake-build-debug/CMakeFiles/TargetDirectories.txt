@@ -1,3 +1,3 @@
-C:/Users/User/CLionProjects/learnCpp/cmake-build-debug/CMakeFiles/learnCpp.dir
-C:/Users/User/CLionProjects/learnCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/User/CLionProjects/learnCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/cmake-build-debug/CMakeFiles/learnCpp.dir
+C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
