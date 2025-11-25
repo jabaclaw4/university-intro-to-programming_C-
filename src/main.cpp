@@ -40,7 +40,8 @@ int main() {
             Vector sum2 = v1 + v2;
             std::cout << "sum v1 and v2 (operator +):" << std::endl;
             std::cout << "v1 + v2 = (" << sum2.getX() << ";" << sum2.getY() << ")" << std::endl;
-            std::cout << "dist between vectors: " << v1.distanceBetweenVectors(v2) << std::endl;
+            double dist = v1.distanceBetweenVectors(v2);
+            std::cout << "dist between vectors: " << dist << std::endl;
     }
     return 0;
 }

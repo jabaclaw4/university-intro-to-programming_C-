@@ -13,6 +13,8 @@ public:
     Vector(double x, double y);
     double getX();
     double getY();
+    void setX(double x);
+    void setY(double y);
     double length();
     Vector add(Vector& other);//сумма векторов
     double dotProduct(Vector& other);//скалярное произведение

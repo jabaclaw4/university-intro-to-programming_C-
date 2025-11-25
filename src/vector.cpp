@@ -7,8 +7,8 @@ Vector::Vector() {
 }
 
 Vector::Vector(double x, double y) {
-    this -> x = x;
-    this -> y = y;
+    setX(x);
+    setY(y);
 }
 
 double Vector::getX() {
@@ -17,6 +17,14 @@ double Vector::getX() {
 
 double Vector::getY() {
     return y;
+}
+
+void Vector::setX(double x) {
+    this -> x = x;
+}
+
+void Vector::setY(double y) {
+    this -> y = y;
 }
 
 double Vector::length() {
