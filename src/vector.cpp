@@ -35,8 +35,8 @@ Vector Vector::operator+(Vector &other) {
     return Vector(x + other.x, y + other.y);
 }
 
-double Vector::distanceBetweenPoints(Point &p1, Point &p2) {
-    double dx = p2.getX() - p1.getX();
-    double dy = p2.getY() - p1.getY();
+double Vector::distanceBetweenVectors(Vector &other) {
+    double dx = x - other.getX();
+    double dy = y - other.getY();
     return sqrt(dx * dx + dy * dy);
 }

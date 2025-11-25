@@ -17,8 +17,7 @@ public:
     Vector add(Vector& other);//сумма векторов
     double dotProduct(Vector& other);//скалярное произведение
     Vector operator+(Vector& other);//сложение перегрузка
-    //метод для расстояния между точками
-    static double distanceBetweenPoints(Point& p1, Point& p2);
+    double distanceBetweenVectors(Vector& other);
 };
 
 #endif

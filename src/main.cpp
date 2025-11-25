@@ -16,7 +16,7 @@ int main() {
     std::cout << "2. class Vector" << std::endl;
     std::cin >> x;
     switch (x) {
-        case 1: //расстояние между точками
+        case 1:
             std::cout << "=== demonstration of the class Point ===" << std::endl;
             std::cout << "point 1 (" << p1.getX() << ";" << p1.getY() << ") DistToOrigin(len of radius-vector): " << p1.distanceToOrigin() << std::endl;
             std::cout << "point 2 (" << p2.getX() << ";" << p2.getY() << ") DistToOrigin(len of radius-vector): " << p2.distanceToOrigin() << std::endl;
@@ -40,6 +40,7 @@ int main() {
             Vector sum2 = v1 + v2;
             std::cout << "sum v1 and v2 (operator +):" << std::endl;
             std::cout << "v1 + v2 = (" << sum2.getX() << ";" << sum2.getY() << ")" << std::endl;
+            std::cout << "dist between vectors: " << v1.distanceBetweenVectors(v2) << std::endl;
     }
     return 0;
 }
