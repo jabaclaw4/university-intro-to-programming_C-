@@ -152,6 +152,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/point.obj: src/point.cpp.obj
+.PHONY : src/point.obj
+
+# target to build an object file
+src/point.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/point.cpp.obj
+.PHONY : src/point.cpp.obj
+
+src/point.i: src/point.cpp.i
+.PHONY : src/point.i
+
+# target to preprocess a source file
+src/point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/point.cpp.i
+.PHONY : src/point.cpp.i
+
+src/point.s: src/point.cpp.s
+.PHONY : src/point.s
+
+# target to generate assembly for a file
+src/point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/point.cpp.s
+.PHONY : src/point.cpp.s
+
+src/vector.obj: src/vector.cpp.obj
+.PHONY : src/vector.obj
+
+# target to build an object file
+src/vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/vector.cpp.obj
+.PHONY : src/vector.cpp.obj
+
+src/vector.i: src/vector.cpp.i
+.PHONY : src/vector.i
+
+# target to preprocess a source file
+src/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/vector.cpp.i
+.PHONY : src/vector.cpp.i
+
+src/vector.s: src/vector.cpp.s
+.PHONY : src/vector.s
+
+# target to generate assembly for a file
+src/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCpp.dir\build.make CMakeFiles/learnCpp.dir/src/vector.cpp.s
+.PHONY : src/vector.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +212,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/point.obj
+	@echo ... src/point.i
+	@echo ... src/point.s
+	@echo ... src/vector.obj
+	@echo ... src/vector.i
+	@echo ... src/vector.s
 .PHONY : help
 
 

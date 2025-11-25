@@ -82,19 +82,51 @@ CMakeFiles/learnCpp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/learnCpp.dir/src/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\main.cpp -o CMakeFiles\learnCpp.dir\src\main.cpp.s
 
+CMakeFiles/learnCpp.dir/src/point.cpp.obj: CMakeFiles/learnCpp.dir/flags.make
+CMakeFiles/learnCpp.dir/src/point.cpp.obj: C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/src/point.cpp
+CMakeFiles/learnCpp.dir/src/point.cpp.obj: CMakeFiles/learnCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learnCpp.dir/src/point.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learnCpp.dir/src/point.cpp.obj -MF CMakeFiles\learnCpp.dir\src\point.cpp.obj.d -o CMakeFiles\learnCpp.dir\src\point.cpp.obj -c C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\point.cpp
+
+CMakeFiles/learnCpp.dir/src/point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/learnCpp.dir/src/point.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\point.cpp > CMakeFiles\learnCpp.dir\src\point.cpp.i
+
+CMakeFiles/learnCpp.dir/src/point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/learnCpp.dir/src/point.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\point.cpp -o CMakeFiles\learnCpp.dir\src\point.cpp.s
+
+CMakeFiles/learnCpp.dir/src/vector.cpp.obj: CMakeFiles/learnCpp.dir/flags.make
+CMakeFiles/learnCpp.dir/src/vector.cpp.obj: C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/src/vector.cpp
+CMakeFiles/learnCpp.dir/src/vector.cpp.obj: CMakeFiles/learnCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/learnCpp.dir/src/vector.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learnCpp.dir/src/vector.cpp.obj -MF CMakeFiles\learnCpp.dir\src\vector.cpp.obj.d -o CMakeFiles\learnCpp.dir\src\vector.cpp.obj -c C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\vector.cpp
+
+CMakeFiles/learnCpp.dir/src/vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/learnCpp.dir/src/vector.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\vector.cpp > CMakeFiles\learnCpp.dir\src\vector.cpp.i
+
+CMakeFiles/learnCpp.dir/src/vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/learnCpp.dir/src/vector.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\src\vector.cpp -o CMakeFiles\learnCpp.dir\src\vector.cpp.s
+
 # Object files for target learnCpp
 learnCpp_OBJECTS = \
-"CMakeFiles/learnCpp.dir/src/main.cpp.obj"
+"CMakeFiles/learnCpp.dir/src/main.cpp.obj" \
+"CMakeFiles/learnCpp.dir/src/point.cpp.obj" \
+"CMakeFiles/learnCpp.dir/src/vector.cpp.obj"
 
 # External object files for target learnCpp
 learnCpp_EXTERNAL_OBJECTS =
 
 learnCpp.exe: CMakeFiles/learnCpp.dir/src/main.cpp.obj
+learnCpp.exe: CMakeFiles/learnCpp.dir/src/point.cpp.obj
+learnCpp.exe: CMakeFiles/learnCpp.dir/src/vector.cpp.obj
 learnCpp.exe: CMakeFiles/learnCpp.dir/build.make
 learnCpp.exe: CMakeFiles/learnCpp.dir/linkLibs.rsp
 learnCpp.exe: CMakeFiles/learnCpp.dir/objects1.rsp
 learnCpp.exe: CMakeFiles/learnCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learnCpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\jabaclaw4\CLionProjects\university-intro-to-programming_C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable learnCpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\learnCpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -85,6 +85,12 @@
 		<Unit filename="C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/src/main.cpp">
 			<Option target="learnCpp"/>
 		</Unit>
+		<Unit filename="C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/src/point.cpp">
+			<Option target="learnCpp"/>
+		</Unit>
+		<Unit filename="C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/src/vector.cpp">
+			<Option target="learnCpp"/>
+		</Unit>
 		<Unit filename="C:/Users/jabaclaw4/CLionProjects/university-intro-to-programming_C-/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
