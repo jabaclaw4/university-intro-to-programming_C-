@@ -11,9 +11,9 @@ int main() {
     Vector v2(1, -2);
     Vector v3;
 
-    std::cout << "choose class (enter 1 or 2)" << std::endl;
     std::cout << "1. class Point" << std::endl;
     std::cout << "2. class Vector" << std::endl;
+    std::cout << "choose class (enter 1 or 2): ";
     std::cin >> x;
     switch (x) {
         case 1:
